@@ -1,12 +1,3 @@
-package com.murrayc.murraycgwtpexample.client.application.userstatus;
-
-import com.google.gwt.user.client.ui.*;
-import com.gwtplatform.mvp.client.ViewWithUiHandlers;
-import com.murrayc.murraycgwtpexample.client.Log;
-import com.murrayc.murraycgwtpexample.client.LoginInfo;
-import com.murrayc.murraycgwtpexample.client.NameTokens;
-import com.murrayc.murraycgwtpexample.shared.db.UserProfile;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -27,7 +18,18 @@ import com.murrayc.murraycgwtpexample.shared.db.UserProfile;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application.userstatus;
+
+import com.google.gwt.user.client.ui.*;
+import com.gwtplatform.mvp.client.ViewWithUiHandlers;
+import com.murrayc.murraycgwtpexample.client.Log;
+import com.murrayc.murraycgwtpexample.client.LoginInfo;
+import com.murrayc.murraycgwtpexample.client.NameTokens;
+import com.murrayc.murraycgwtpexample.shared.db.UserProfile;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class UserStatusView extends ViewWithUiHandlers<UserStatusUserEditUiHandlers>

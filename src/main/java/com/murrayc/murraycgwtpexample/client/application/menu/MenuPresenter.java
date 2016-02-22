@@ -1,14 +1,3 @@
-package com.murrayc.murraycgwtpexample.client.application.menu;
-
-
-import com.google.inject.Inject;
-import com.google.web.bindery.event.shared.EventBus;
-import com.gwtplatform.mvp.client.HasUiHandlers;
-import com.gwtplatform.mvp.client.PresenterWidget;
-import com.gwtplatform.mvp.client.View;
-import com.gwtplatform.mvp.client.proxy.PlaceManager;
-import com.gwtplatform.mvp.shared.proxy.PlaceRequest;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -29,7 +18,19 @@ import com.gwtplatform.mvp.shared.proxy.PlaceRequest;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application.menu;
+
+import com.google.inject.Inject;
+import com.google.web.bindery.event.shared.EventBus;
+import com.gwtplatform.mvp.client.HasUiHandlers;
+import com.gwtplatform.mvp.client.PresenterWidget;
+import com.gwtplatform.mvp.client.View;
+import com.gwtplatform.mvp.client.proxy.PlaceManager;
+import com.gwtplatform.mvp.shared.proxy.PlaceRequest;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class MenuPresenter extends PresenterWidget<MenuPresenter.MyView>

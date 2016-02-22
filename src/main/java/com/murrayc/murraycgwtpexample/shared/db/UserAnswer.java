@@ -1,12 +1,3 @@
-package com.murrayc.murraycgwtpexample.shared.db;
-
-import com.google.gwt.user.client.rpc.IsSerializable;
-import com.googlecode.objectify.annotation.Entity;
-import com.googlecode.objectify.annotation.Id;
-import com.googlecode.objectify.annotation.Ignore;
-import com.googlecode.objectify.annotation.Index;
-import com.murrayc.murraycgwtpexample.shared.Thing;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -27,7 +18,18 @@ import com.murrayc.murraycgwtpexample.shared.Thing;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.shared.db;
+
+import com.google.gwt.user.client.rpc.IsSerializable;
+import com.googlecode.objectify.annotation.Entity;
+import com.googlecode.objectify.annotation.Id;
+import com.googlecode.objectify.annotation.Ignore;
+import com.googlecode.objectify.annotation.Index;
+import com.murrayc.murraycgwtpexample.shared.Thing;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 @Entity

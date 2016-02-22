@@ -1,9 +1,3 @@
-package com.murrayc.murraycgwtpexample.client.application.userprofile;
-
-import com.google.gwt.user.client.ui.*;
-import com.gwtplatform.mvp.client.ViewWithUiHandlers;
-import com.murrayc.murraycgwtpexample.client.LoginInfo;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -24,7 +18,15 @@ import com.murrayc.murraycgwtpexample.client.LoginInfo;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application.userprofile;
+
+import com.google.gwt.user.client.ui.*;
+import com.gwtplatform.mvp.client.ViewWithUiHandlers;
+import com.murrayc.murraycgwtpexample.client.LoginInfo;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class UserProfileView extends ViewWithUiHandlers<UserProfileUserEditUiHandlers>

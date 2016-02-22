@@ -1,11 +1,3 @@
-package com.murrayc.murraycgwtpexample.server;
-
-import com.google.appengine.api.users.User;
-import com.google.appengine.api.users.UserService;
-import com.google.appengine.api.users.UserServiceFactory;
-import com.google.gwt.user.server.rpc.RemoteServiceServlet;
-import com.murrayc.murraycgwtpexample.client.Log;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -26,7 +18,17 @@ import com.murrayc.murraycgwtpexample.client.Log;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.server;
+
+import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserService;
+import com.google.appengine.api.users.UserServiceFactory;
+import com.google.gwt.user.server.rpc.RemoteServiceServlet;
+import com.murrayc.murraycgwtpexample.client.Log;
+
+/*
  * Created by murrayc on 1/20/16.
  */
 public class ServiceWithUser extends RemoteServiceServlet {

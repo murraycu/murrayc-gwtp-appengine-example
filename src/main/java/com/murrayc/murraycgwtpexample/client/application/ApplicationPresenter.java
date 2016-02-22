@@ -1,21 +1,3 @@
-package com.murrayc.murraycgwtpexample.client.application;
-
-import com.google.inject.Inject;
-
-import com.google.web.bindery.event.shared.EventBus;
-import com.gwtplatform.mvp.client.Presenter;
-import com.gwtplatform.mvp.client.View;
-import com.gwtplatform.mvp.client.annotations.ProxyStandard;
-import com.gwtplatform.mvp.client.presenter.slots.NestedSlot;
-import com.gwtplatform.mvp.client.presenter.slots.SingleSlot;
-import com.gwtplatform.mvp.client.proxy.Proxy;
-
-import com.murrayc.murraycgwtpexample.client.application.ApplicationPresenter.MyView;
-import com.murrayc.murraycgwtpexample.client.application.ApplicationPresenter.MyProxy;
-import com.murrayc.murraycgwtpexample.client.application.menu.MenuPresenter;
-import com.murrayc.murraycgwtpexample.client.application.userhistoryrecent.UserHistoryRecentPresenter;
-import com.murrayc.murraycgwtpexample.client.application.userstatus.UserStatusPresenter;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -36,7 +18,27 @@ import com.murrayc.murraycgwtpexample.client.application.userstatus.UserStatusPr
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application;
+
+import com.google.inject.Inject;
+
+import com.google.web.bindery.event.shared.EventBus;
+import com.gwtplatform.mvp.client.Presenter;
+import com.gwtplatform.mvp.client.View;
+import com.gwtplatform.mvp.client.annotations.ProxyStandard;
+import com.gwtplatform.mvp.client.presenter.slots.NestedSlot;
+import com.gwtplatform.mvp.client.presenter.slots.SingleSlot;
+import com.gwtplatform.mvp.client.proxy.Proxy;
+
+import com.murrayc.murraycgwtpexample.client.application.ApplicationPresenter.MyView;
+import com.murrayc.murraycgwtpexample.client.application.ApplicationPresenter.MyProxy;
+import com.murrayc.murraycgwtpexample.client.application.menu.MenuPresenter;
+import com.murrayc.murraycgwtpexample.client.application.userhistoryrecent.UserHistoryRecentPresenter;
+import com.murrayc.murraycgwtpexample.client.application.userstatus.UserStatusPresenter;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class ApplicationPresenter extends Presenter<MyView, MyProxy> {

@@ -1,7 +1,3 @@
-package com.murrayc.murraycgwtpexample.client.application.menu;
-
-import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -22,7 +18,13 @@ import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application.menu;
+
+import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class MenuModule extends AbstractPresenterModule {

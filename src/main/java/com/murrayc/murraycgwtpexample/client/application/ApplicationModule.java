@@ -1,17 +1,3 @@
-package com.murrayc.murraycgwtpexample.client.application;
-
-import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
-import com.murrayc.murraycgwtpexample.client.application.about.AboutModule;
-import com.murrayc.murraycgwtpexample.client.application.menu.MenuModule;
-import com.murrayc.murraycgwtpexample.client.application.menu.MenuPresenter;
-import com.murrayc.murraycgwtpexample.client.application.menu.MenuView;
-import com.murrayc.murraycgwtpexample.client.application.thing.ThingModule;
-import com.murrayc.murraycgwtpexample.client.application.userhistoryrecent.UserHistoryRecentModule;
-import com.murrayc.murraycgwtpexample.client.application.userprofile.UserProfileModule;
-import com.murrayc.murraycgwtpexample.client.application.userstatus.UserStatusModule;
-import com.murrayc.murraycgwtpexample.client.application.userstatus.UserStatusPresenter;
-import com.murrayc.murraycgwtpexample.client.application.userstatus.UserStatusView;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -32,7 +18,23 @@ import com.murrayc.murraycgwtpexample.client.application.userstatus.UserStatusVi
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application;
+
+import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
+import com.murrayc.murraycgwtpexample.client.application.about.AboutModule;
+import com.murrayc.murraycgwtpexample.client.application.menu.MenuModule;
+import com.murrayc.murraycgwtpexample.client.application.menu.MenuPresenter;
+import com.murrayc.murraycgwtpexample.client.application.menu.MenuView;
+import com.murrayc.murraycgwtpexample.client.application.thing.ThingModule;
+import com.murrayc.murraycgwtpexample.client.application.userhistoryrecent.UserHistoryRecentModule;
+import com.murrayc.murraycgwtpexample.client.application.userprofile.UserProfileModule;
+import com.murrayc.murraycgwtpexample.client.application.userstatus.UserStatusModule;
+import com.murrayc.murraycgwtpexample.client.application.userstatus.UserStatusPresenter;
+import com.murrayc.murraycgwtpexample.client.application.userstatus.UserStatusView;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class ApplicationModule extends AbstractPresenterModule {

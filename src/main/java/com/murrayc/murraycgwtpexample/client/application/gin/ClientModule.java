@@ -1,11 +1,3 @@
-package com.murrayc.murraycgwtpexample.client.application.gin;
-
-import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
-import com.gwtplatform.mvp.client.gin.DefaultModule;
-import com.gwtplatform.mvp.shared.proxy.RouteTokenFormatter;
-import com.murrayc.murraycgwtpexample.client.NameTokens;
-import com.murrayc.murraycgwtpexample.client.application.ApplicationModule;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -26,7 +18,17 @@ import com.murrayc.murraycgwtpexample.client.application.ApplicationModule;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application.gin;
+
+import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
+import com.gwtplatform.mvp.client.gin.DefaultModule;
+import com.gwtplatform.mvp.shared.proxy.RouteTokenFormatter;
+import com.murrayc.murraycgwtpexample.client.NameTokens;
+import com.murrayc.murraycgwtpexample.client.application.ApplicationModule;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class ClientModule extends AbstractPresenterModule {

@@ -1,10 +1,3 @@
-package com.murrayc.murraycgwtpexample.client.application;
-
-import com.google.gwt.user.client.ui.FlowPanel;
-import com.google.gwt.user.client.ui.Panel;
-import com.google.gwt.user.client.ui.SimplePanel;
-import com.gwtplatform.mvp.client.ViewImpl;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -25,7 +18,16 @@ import com.gwtplatform.mvp.client.ViewImpl;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application;
+
+import com.google.gwt.user.client.ui.FlowPanel;
+import com.google.gwt.user.client.ui.Panel;
+import com.google.gwt.user.client.ui.SimplePanel;
+import com.gwtplatform.mvp.client.ViewImpl;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class ApplicationView extends ViewImpl implements ApplicationPresenter.MyView {

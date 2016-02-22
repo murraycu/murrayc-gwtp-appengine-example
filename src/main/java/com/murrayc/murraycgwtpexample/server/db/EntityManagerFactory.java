@@ -1,10 +1,3 @@
-package com.murrayc.murraycgwtpexample.server.db;
-
-import com.googlecode.objectify.Objectify;
-import com.googlecode.objectify.ObjectifyService;
-import com.murrayc.murraycgwtpexample.shared.db.UserAnswer;
-import com.murrayc.murraycgwtpexample.shared.db.UserProfile;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -25,7 +18,16 @@ import com.murrayc.murraycgwtpexample.shared.db.UserProfile;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+ 
+package com.murrayc.murraycgwtpexample.server.db;
+
+import com.googlecode.objectify.Objectify;
+import com.googlecode.objectify.ObjectifyService;
+import com.murrayc.murraycgwtpexample.shared.db.UserAnswer;
+import com.murrayc.murraycgwtpexample.shared.db.UserProfile;
+
+/**
  * Created by murrayc on 1/19/16.
  */
 public class EntityManagerFactory {

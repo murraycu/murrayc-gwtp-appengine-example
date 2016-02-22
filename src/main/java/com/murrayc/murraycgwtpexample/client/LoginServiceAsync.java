@@ -1,8 +1,3 @@
-package com.murrayc.murraycgwtpexample.client;
-
-import com.google.gwt.core.client.GWT;
-import com.google.gwt.user.client.rpc.AsyncCallback;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -23,7 +18,14 @@ import com.google.gwt.user.client.rpc.AsyncCallback;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client;
+
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.user.client.rpc.AsyncCallback;
+
+/**
  * Created by murrayc on 1/18/16.
  */
 public interface LoginServiceAsync {

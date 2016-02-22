@@ -1,14 +1,3 @@
-package com.murrayc.murraycgwtpexample.client.application.userhistoryrecent;
-
-import com.google.gwt.user.client.ui.*;
-import com.google.inject.Inject;
-import com.gwtplatform.mvp.client.ViewWithUiHandlers;
-import com.gwtplatform.mvp.client.proxy.PlaceManager;
-import com.gwtplatform.mvp.shared.proxy.PlaceRequest;
-import com.murrayc.murraycgwtpexample.client.UserRecentHistory;
-import com.murrayc.murraycgwtpexample.client.application.PlaceUtils;
-import com.murrayc.murraycgwtpexample.shared.db.UserAnswer;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -29,7 +18,20 @@ import com.murrayc.murraycgwtpexample.shared.db.UserAnswer;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application.userhistoryrecent;
+
+import com.google.gwt.user.client.ui.*;
+import com.google.inject.Inject;
+import com.gwtplatform.mvp.client.ViewWithUiHandlers;
+import com.gwtplatform.mvp.client.proxy.PlaceManager;
+import com.gwtplatform.mvp.shared.proxy.PlaceRequest;
+import com.murrayc.murraycgwtpexample.client.UserRecentHistory;
+import com.murrayc.murraycgwtpexample.client.application.PlaceUtils;
+import com.murrayc.murraycgwtpexample.shared.db.UserAnswer;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class UserHistoryRecentView extends ViewWithUiHandlers<UserHistoryRecentUserEditUiHandlers>

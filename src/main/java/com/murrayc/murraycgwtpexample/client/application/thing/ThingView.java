@@ -1,21 +1,3 @@
-package com.murrayc.murraycgwtpexample.client.application.thing;
-
-import com.google.gwt.core.client.GWT;
-import com.google.gwt.event.dom.client.ClickEvent;
-import com.google.gwt.event.dom.client.ClickHandler;
-import com.google.gwt.event.logical.shared.ValueChangeEvent;
-import com.google.gwt.event.logical.shared.ValueChangeHandler;
-import com.google.gwt.user.client.Window;
-import com.google.gwt.user.client.ui.*;
-import com.gwtplatform.mvp.client.ViewWithUiHandlers;
-import com.murrayc.murraycgwtpexample.client.Log;
-import com.murrayc.murraycgwtpexample.client.ThingService;
-import com.murrayc.murraycgwtpexample.shared.Thing;
-import com.murrayc.murraycgwtpexample.client.MurraycGwtpExampleConstants;
-
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -36,7 +18,27 @@ import java.util.List;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application.thing;
+
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.event.dom.client.ClickEvent;
+import com.google.gwt.event.dom.client.ClickHandler;
+import com.google.gwt.event.logical.shared.ValueChangeEvent;
+import com.google.gwt.event.logical.shared.ValueChangeHandler;
+import com.google.gwt.user.client.Window;
+import com.google.gwt.user.client.ui.*;
+import com.gwtplatform.mvp.client.ViewWithUiHandlers;
+import com.murrayc.murraycgwtpexample.client.Log;
+import com.murrayc.murraycgwtpexample.client.ThingService;
+import com.murrayc.murraycgwtpexample.shared.Thing;
+import com.murrayc.murraycgwtpexample.client.MurraycGwtpExampleConstants;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class ThingView extends ViewWithUiHandlers<ThingUserEditUiHandlers>

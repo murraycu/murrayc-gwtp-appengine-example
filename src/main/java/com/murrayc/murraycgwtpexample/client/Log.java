@@ -1,8 +1,3 @@
-package com.murrayc.murraycgwtpexample.client;
-
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -23,7 +18,14 @@ import java.util.logging.Logger;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/**
  * Created by murrayc on 1/20/16.
  */
 public class Log {

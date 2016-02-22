@@ -1,10 +1,3 @@
-package com.murrayc.murraycgwtpexample.client.application.menu;
-
-import com.google.gwt.user.client.Command;
-import com.google.gwt.user.client.ui.*;
-import com.gwtplatform.mvp.client.ViewWithUiHandlers;
-import com.murrayc.murraycgwtpexample.client.NameTokens;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -25,7 +18,16 @@ import com.murrayc.murraycgwtpexample.client.NameTokens;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application.menu;
+
+import com.google.gwt.user.client.Command;
+import com.google.gwt.user.client.ui.*;
+import com.gwtplatform.mvp.client.ViewWithUiHandlers;
+import com.murrayc.murraycgwtpexample.client.NameTokens;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class MenuView extends ViewWithUiHandlers<MenuUserEditUiHandlers>

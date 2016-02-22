@@ -1,20 +1,4 @@
-package com.murrayc.murraycgwtpexample.client.application.about;
-
-
-import com.google.inject.Inject;
-import com.google.web.bindery.event.shared.EventBus;
-import com.gwtplatform.mvp.client.HasUiHandlers;
-import com.gwtplatform.mvp.client.Presenter;
-import com.gwtplatform.mvp.client.View;
-import com.gwtplatform.mvp.client.annotations.NameToken;
-import com.gwtplatform.mvp.client.annotations.ProxyStandard;
-import com.gwtplatform.mvp.client.proxy.ProxyPlace;
-import com.murrayc.murraycgwtpexample.client.NameTokens;
-import com.murrayc.murraycgwtpexample.client.application.ApplicationPresenter;
-
 /**
- * The MIT License (MIT)
- *
  * Copyright (c) 2016 Murray Cumming
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -34,7 +18,22 @@ import com.murrayc.murraycgwtpexample.client.application.ApplicationPresenter;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application.about;
+
+import com.google.inject.Inject;
+import com.google.web.bindery.event.shared.EventBus;
+import com.gwtplatform.mvp.client.HasUiHandlers;
+import com.gwtplatform.mvp.client.Presenter;
+import com.gwtplatform.mvp.client.View;
+import com.gwtplatform.mvp.client.annotations.NameToken;
+import com.gwtplatform.mvp.client.annotations.ProxyStandard;
+import com.gwtplatform.mvp.client.proxy.ProxyPlace;
+import com.murrayc.murraycgwtpexample.client.NameTokens;
+import com.murrayc.murraycgwtpexample.client.application.ApplicationPresenter;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class AboutPresenter extends Presenter<AboutPresenter.MyView, AboutPresenter.MyProxy>

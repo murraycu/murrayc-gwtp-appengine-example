@@ -1,19 +1,3 @@
-package com.murrayc.murraycgwtpexample.client.application.userstatus;
-
-
-import com.google.gwt.core.client.GWT;
-import com.google.gwt.user.client.rpc.AsyncCallback;
-import com.google.inject.Inject;
-import com.google.web.bindery.event.shared.EventBus;
-import com.gwtplatform.mvp.client.HasUiHandlers;
-import com.gwtplatform.mvp.client.PresenterWidget;
-import com.gwtplatform.mvp.client.View;
-import com.murrayc.murraycgwtpexample.client.Log;
-import com.murrayc.murraycgwtpexample.client.LoginInfo;
-import com.murrayc.murraycgwtpexample.client.LoginServiceAsync;
-import com.murrayc.murraycgwtpexample.client.ThingServiceAsync;
-import com.murrayc.murraycgwtpexample.shared.db.UserProfile;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -34,7 +18,24 @@ import com.murrayc.murraycgwtpexample.shared.db.UserProfile;
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application.userstatus;
+
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.user.client.rpc.AsyncCallback;
+import com.google.inject.Inject;
+import com.google.web.bindery.event.shared.EventBus;
+import com.gwtplatform.mvp.client.HasUiHandlers;
+import com.gwtplatform.mvp.client.PresenterWidget;
+import com.gwtplatform.mvp.client.View;
+import com.murrayc.murraycgwtpexample.client.Log;
+import com.murrayc.murraycgwtpexample.client.LoginInfo;
+import com.murrayc.murraycgwtpexample.client.LoginServiceAsync;
+import com.murrayc.murraycgwtpexample.client.ThingServiceAsync;
+import com.murrayc.murraycgwtpexample.shared.db.UserProfile;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class UserStatusPresenter extends PresenterWidget<UserStatusPresenter.MyView>

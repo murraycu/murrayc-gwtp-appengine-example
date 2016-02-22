@@ -1,24 +1,3 @@
-package com.murrayc.murraycgwtpexample.client.application.userprofile;
-
-
-import com.google.gwt.core.client.GWT;
-import com.google.gwt.user.client.rpc.AsyncCallback;
-import com.google.inject.Inject;
-import com.google.web.bindery.event.shared.EventBus;
-import com.gwtplatform.mvp.client.HasUiHandlers;
-import com.gwtplatform.mvp.client.Presenter;
-import com.gwtplatform.mvp.client.View;
-import com.gwtplatform.mvp.client.annotations.NameToken;
-import com.gwtplatform.mvp.client.annotations.ProxyStandard;
-import com.gwtplatform.mvp.client.presenter.slots.SingleSlot;
-import com.gwtplatform.mvp.client.proxy.ProxyPlace;
-import com.murrayc.murraycgwtpexample.client.Log;
-import com.murrayc.murraycgwtpexample.client.LoginInfo;
-import com.murrayc.murraycgwtpexample.client.LoginServiceAsync;
-import com.murrayc.murraycgwtpexample.client.NameTokens;
-import com.murrayc.murraycgwtpexample.client.application.ApplicationPresenter;
-import com.murrayc.murraycgwtpexample.client.application.userhistoryrecent.UserHistoryRecentPresenter;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -39,7 +18,29 @@ import com.murrayc.murraycgwtpexample.client.application.userhistoryrecent.UserH
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application.userprofile;
+
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.user.client.rpc.AsyncCallback;
+import com.google.inject.Inject;
+import com.google.web.bindery.event.shared.EventBus;
+import com.gwtplatform.mvp.client.HasUiHandlers;
+import com.gwtplatform.mvp.client.Presenter;
+import com.gwtplatform.mvp.client.View;
+import com.gwtplatform.mvp.client.annotations.NameToken;
+import com.gwtplatform.mvp.client.annotations.ProxyStandard;
+import com.gwtplatform.mvp.client.presenter.slots.SingleSlot;
+import com.gwtplatform.mvp.client.proxy.ProxyPlace;
+import com.murrayc.murraycgwtpexample.client.Log;
+import com.murrayc.murraycgwtpexample.client.LoginInfo;
+import com.murrayc.murraycgwtpexample.client.LoginServiceAsync;
+import com.murrayc.murraycgwtpexample.client.NameTokens;
+import com.murrayc.murraycgwtpexample.client.application.ApplicationPresenter;
+import com.murrayc.murraycgwtpexample.client.application.userhistoryrecent.UserHistoryRecentPresenter;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class UserProfilePresenter extends Presenter<UserProfilePresenter.MyView, UserProfilePresenter.MyProxy>

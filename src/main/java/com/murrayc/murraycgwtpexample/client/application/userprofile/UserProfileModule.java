@@ -1,9 +1,3 @@
-package com.murrayc.murraycgwtpexample.client.application.userprofile;
-
-import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
-import com.murrayc.murraycgwtpexample.client.application.userhistoryrecent.UserHistoryRecentPresenter;
-import com.murrayc.murraycgwtpexample.client.application.userhistoryrecent.UserHistoryRecentView;
-
 /**
  * Copyright (c) 2016 Murray Cumming
  *
@@ -24,7 +18,15 @@ import com.murrayc.murraycgwtpexample.client.application.userhistoryrecent.UserH
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
+ */
+
+package com.murrayc.murraycgwtpexample.client.application.userprofile;
+
+import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
+import com.murrayc.murraycgwtpexample.client.application.userhistoryrecent.UserHistoryRecentPresenter;
+import com.murrayc.murraycgwtpexample.client.application.userhistoryrecent.UserHistoryRecentView;
+
+/**
  * Created by murrayc on 1/21/16.
  */
 public class UserProfileModule extends AbstractPresenterModule {
